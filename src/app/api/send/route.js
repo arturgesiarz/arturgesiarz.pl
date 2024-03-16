@@ -13,7 +13,7 @@ export async function POST(req) {
         const send_to_user_data = await resend.emails.send({
             from: from_email,
             to: email,
-            subject: "Potwierdzenie wysłania wiadomości",
+            subject: "Potwierdzenie wysłania wiadomości / Confirmation of message sending",
             react: (
                 <>
                     <p>Cześć, </p>
@@ -25,6 +25,18 @@ export async function POST(req) {
 
                     <p>Pozdrawiam serdecznie</p>
                     <p>Artur Gęsiarz.</p>
+
+                    <p>-----------English below-----------</p>
+
+                    <p>Hi, </p>.
+
+                    <p>I am very pleased that you are contacting me!
+
+                        I really appreciate you taking the time to contact me.
+                        I will write back as soon as I have the opportunity.</p>.
+
+                    <p>Greetings</p>.
+                    <p>Artur Gęsiarz.</p>.
                 </>
             ),
         });

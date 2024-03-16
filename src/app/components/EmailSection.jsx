@@ -1,11 +1,11 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 import GithubIcon from "/public/images/github-icon.svg"
 import LinkedinIcon from "/public/images/linkedin_icon.svg"
 import Link from "next/link";
 import Image from "next/image";
 const EmailSection = () => {
-
+    const [emailSubmitted, setEmailSubmitted] = useState(false)
     const handleSubmit = async (e) => {
         e.preventDefault()
         const data = {
@@ -27,6 +27,7 @@ const EmailSection = () => {
         const response = await fetch(endpoint, options)
         if (response.status === 200) {
             console.log('Message sent.')
+            setEmailSubmitted(true)
         }
 
         e.target.name.value = ""
@@ -129,6 +130,13 @@ const EmailSection = () => {
                     font-medium py-2.5 px-5 rounded-lg w-full">
                         Send Message
                     </button>
+                    {
+                        emailSubmitted && (
+                            <p className="text-green-500 text-sm mt-2">
+                                Email sent successfully!
+                            </p>
+                        )
+                    }
                 </form>
             </div>
         </section>

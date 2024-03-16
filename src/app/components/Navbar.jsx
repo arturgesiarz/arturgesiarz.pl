@@ -37,7 +37,7 @@ const Navbar = () => {
 
     return (
         <nav ref={ref} className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-8">
+            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-1">
                 <motion.div initial={{ y: -50, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 1.5 }}>

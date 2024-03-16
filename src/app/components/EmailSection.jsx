@@ -1,6 +1,6 @@
 import React from "react";
-import GithubIcon from "/Users/arturgesiarz/WebstormProjects/portfolio-website/public/images/github-icon.svg"
-import LinkedinIcon from "/Users/arturgesiarz/WebstormProjects/portfolio-website/public/images/linkedin_icon.svg"
+import GithubIcon from "/public/images/github-icon.svg"
+import LinkedinIcon from "/public/images/linkedin_icon.svg"
 import Link from "next/link";
 import Image from "next/image";
 const EmailSection = () => {

@@ -23,8 +23,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-                <li>AGH University of Krakow - <br/>
-                    WI Computer Science (2022 - now)</li>
+                <li>AGH University of Krakow, WI - <br/>
+                    Computer Science (2022 - now)</li>
             </ul>
         )
     },

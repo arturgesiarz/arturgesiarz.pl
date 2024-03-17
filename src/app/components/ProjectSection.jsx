@@ -21,7 +21,7 @@ const projectsData = [
         description: "The web application project was about making a Facebook-like website " +
             "where you can create an account, insert a post, react to it, give a comment " +
             "and create a discussion topic. The backend of the project is written in Java using Spring" +
-            " and a MySQL database. The frontend is written in JavaScript using Angular and Bootstrap",
+            " and MySQL database. The frontend is written in JavaScript using Angular and Bootstrap",
         image: "/images/projects/2.jpg",
         tag: ["All", "Web"],
         gitUrl: "",
@@ -33,7 +33,7 @@ const projectsData = [
         description: "A mobile application similar to the famous 'Messenger' " +
             "on which you can create an account using your phone number and it is verified using OTP. " +
             "The app generally allows you to write with each other in real time, send photos, " +
-            "and have your own profile picture. The application is written in Kotlna in Android Studio " +
+            "and have your own profile picture. The application is written in Kotlin in Android Studio " +
             "using Firebase from Google.",
         image: "/images/projects/3.jpg",
         tag: ["All","Mobile"],

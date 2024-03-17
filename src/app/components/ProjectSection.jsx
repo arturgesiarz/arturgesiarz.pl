@@ -12,7 +12,7 @@ const projectsData = [
         image: "/images/projects/1.jpg",
         tag: ["All", "Graphics"],
         gitUrl: "",
-        previewUrl: ""
+        previewUrl: "/projects/evolution"
     },
     {
         id : 2,
@@ -21,7 +21,7 @@ const projectsData = [
         image: "/images/projects/2.jpg",
         tag: ["All", "Web"],
         gitUrl: "",
-        previewUrl: ""
+        previewUrl: "/projects/forum_flow"
     },
     {
         id : 3,
@@ -30,7 +30,7 @@ const projectsData = [
         image: "/images/projects/3.jpg",
         tag: ["All","Mobile"],
         gitUrl: "",
-        previewUrl: ""
+        previewUrl: "/projects/talkify"
     },
     {
         id : 4,
@@ -39,7 +39,7 @@ const projectsData = [
         image: "/images/projects/4.jpg",
         tag: ["All", "Graphics"],
         gitUrl: "",
-        previewUrl: ""
+        previewUrl: "/projects/hawaii_snake"
     },
 ]
 

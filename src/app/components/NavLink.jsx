@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const NavLink = ({ href, title, navbarOpen, setNavbarOpen }) => {
     const handleClick = () => {
-        if (setNavbarOpen != null && navbarOpen == true) {
+        if (setNavbarOpen != null &&  navbarOpen == true) {
             setNavbarOpen(false);
         }
     };

@@ -52,13 +52,15 @@ const AboutSection = () => {
         <motion.section initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1.5 }}
-                        className="text-white">
+                        className="text-white"
+                        id="#about">
             <div className="grid gap-8 items-center py-8 px-4 xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-16">
                 <Image
                     src="/images/my_photo_about_me.jpg"
                     alt="about me photo"
                     width={500}
-                    height={500}/>
+                    height={500}
+                    className="rounded-lg"/>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-white text-base md:text-lg">

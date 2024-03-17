@@ -1,6 +1,6 @@
 "use client";
 import React, {useRef, useState} from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
@@ -10,7 +10,7 @@ import Image from "next/image";
 const navLinks = [
     {
         title: "Home",
-        path: "/",
+        path: "#home",
     },
     {
         title: "About",
@@ -42,7 +42,12 @@ const Navbar = () => {
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 1.5 }}>
                     <Link
-                        href="/"
+                        activeClass="active"
+                        to="#home"
+                        spy={true}
+                        smooth={true}
+                        offset={-125} // opcjonalne przesunięcie, jeśli masz stałą nawigację górną
+                        duration={500}
                         className="text-2xl md:text-5xl text-white font-semibold">
                         <Image
                             src="/images/logo.png"
@@ -91,6 +96,8 @@ const Navbar = () => {
                                             key={link.title}
                                             title={link.title}
                                             href={link.path}
+                                            navbarOpen={false}
+                                            setNavbarOpen={null}
                                         />
                                     </motion.li>
                                 );
@@ -99,7 +106,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
+            {navbarOpen ? <MenuOverlay links={navLinks} navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/> : null}
         </nav>
     );
 };

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
     return (
         <section className="lg:py-16">
-            <div className="grid grid-cols-1 sm:grid-cols-12">
+            <div className="grid grid-cols-1 sm:grid-cols-12" id="#home">
                 <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.5 }} className="col-span-8 place-self-center place-items-center sm:text-left justify-self-start">
                     <h1 className="text-white max-w-2xl mb-4 lg:text-6xl md:text-5xl text-3xl font-extrabold">
                     <span className="text-transparent lg:text-6xl  md:text-5xl text-3xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -44,14 +45,14 @@ const HeroSection = () => {
                         <i> Talk is cheap. Show me the code </i> <br/> ~ Linus Torvalds
                     </motion.p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-third-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-                            Hire Me
-                        </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-third-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                            Download CV
-                        </span>
-                        </button>
+                        <Link href="CV.pdf" target="_blank" passHref>
+                                <button className="px-8 py-5 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br
+                                from-third-500 via-primary-500 to-secondary-500
+                                hover:bg-slate-200 text-white text-lg">
+                                Download CV
+                                </button>
+                        </Link>
+
                     </div>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.5 }} className="col-span-4 place-self-center mt-4 lg:mt-0">

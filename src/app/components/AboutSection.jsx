@@ -60,7 +60,7 @@ const AboutSection = () => {
                 <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-white text-base md:text-lg">
-                        Hi, my name is Artur Gęsiarz, 🙋‍
+                        Hi, my name is Artur Gęsiarz 🙋‍
                         <br/>
                         <br/>
                         I'm a second year student of computer science at AGH University of Krakow at WI💻 🤓
@@ -108,7 +108,7 @@ const AboutSection = () => {
                         src="/images/my_photo_about_me.jpg"
                         alt="about me photo"
                         width={500}
-                        height={500}
+                        height={800}
                         className="rounded-lg"/>
                 </div>
             </div>

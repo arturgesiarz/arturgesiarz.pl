@@ -13,7 +13,7 @@ const ProjectNavbar = ({ name }) => {
     const isMediumScreen = useMediaQuery({ query: '(min-width: 641px)' });
     const handleClick = () => {
         if (isMediumScreen) {
-            scroll.scrollTo(1235);
+            scroll.scrollTo(1450);
         } else {
             scroll.scrollTo(1650);
         }

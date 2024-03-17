@@ -55,13 +55,7 @@ const AboutSection = () => {
                         className="text-white"
                         id="#about">
             <div className="grid gap-8 items-center py-8 px-4 xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-16">
-                <Image
-                    src="/images/my_photo_about_me.jpg"
-                    alt="about me photo"
-                    width={500}
-                    height={500}
-                    className="rounded-lg"/>
-                <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+                <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-white text-base md:text-lg">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -93,6 +87,14 @@ const AboutSection = () => {
                     <div className="mt-8">
                         {TAB_DATA.find((t) => t.id === tab).content}
                     </div>
+                </div>
+                <div className="md:order-1">
+                    <Image
+                        src="/images/my_photo_about_me.jpg"
+                        alt="about me photo"
+                        width={500}
+                        height={500}
+                        className="rounded-lg"/>
                 </div>
             </div>
         </motion.section>

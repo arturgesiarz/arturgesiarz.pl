@@ -57,9 +57,9 @@ const EmailSection = () => {
                 <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
-                    The DNS records verification is in progress.
-                    It may take a few minutes or hours, depending on domain propagation time.
-                    You will receive an email notification once this operation is completed.
+                    If you have questions, suggestions or just want to chat, that's great!
+                    There's a form on the right where you can write me a message :)
+
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com">

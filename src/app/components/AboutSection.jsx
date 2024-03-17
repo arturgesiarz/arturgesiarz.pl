@@ -23,23 +23,25 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-                <li>AGH University of Krakow - Computer Science (present)</li>
+                <li>AGH University of Krakow - <br/>
+                    WI Computer Science (2022 - now)</li>
             </ul>
         )
     },
     {
-        title: "Certification",
-        id: "certifications",
+        title: "Languages",
+        id: "languages",
         content: (
             <ul className="list-disc pl-2">
-                <li>Empty :(</li>
+                <li>Polish (native)</li>
+                <li>English (B2)</li>
             </ul>
         )
     }
 ]
 
 const AboutSection = () => {
-    const [tab, setTab] = useState("skills");
+    const [tab, setTab] = useState("education");
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id) => {
@@ -78,10 +80,10 @@ const AboutSection = () => {
                             {" "}
                             Education{" "}
                         </TabButton>
-                        <TabButton selectTab={() => handleTabChange("certifications")}
-                                   active={tab === "certifications"}>
+                        <TabButton selectTab={() => handleTabChange("languages")}
+                                   active={tab === "languages"}>
                             {" "}
-                            Certifications{" "}
+                            Languages{" "}
                         </TabButton>
                     </div>
                     <div className="mt-8">

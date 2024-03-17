@@ -7,8 +7,9 @@ import { motion, useInView} from "framer-motion";
 const projectsData = [
     {
         id : 1,
-        title: "Example title 1",
-        description: "Project 1 description",
+        title: "Evolution Project",
+        description: "The project concerned the simulation of animal evolution through reproduction, " +
+            "struggle for food and death. The project was made in Java with the JavaFX library",
         image: "/images/projects/1.jpg",
         tag: ["All", "Graphics"],
         gitUrl: "",
@@ -16,8 +17,11 @@ const projectsData = [
     },
     {
         id : 2,
-        title: "Example title 2",
-        description: "Project 2 description",
+        title: "Forum Flow Project",
+        description: "The web application project was about making a Facebook-like website " +
+            "where you can create an account, insert a post, react to it, give a comment " +
+            "and create a discussion topic. The backend of the project is written in Java using Spring" +
+            " and a MySQL database. The frontend is written in JavaScript using Angular and Bootstrap",
         image: "/images/projects/2.jpg",
         tag: ["All", "Web"],
         gitUrl: "",
@@ -25,8 +29,12 @@ const projectsData = [
     },
     {
         id : 3,
-        title: "Example title 3",
-        description: "Project 3 description",
+        title: "Talkify App",
+        description: "A mobile application similar to the famous 'Messenger' " +
+            "on which you can create an account using your phone number and it is verified using OTP. " +
+            "The app generally allows you to write with each other in real time, send photos, " +
+            "and have your own profile picture. The application is written in Kotlna in Android Studio " +
+            "using Firebase from Google.",
         image: "/images/projects/3.jpg",
         tag: ["All","Mobile"],
         gitUrl: "",
@@ -34,8 +42,10 @@ const projectsData = [
     },
     {
         id : 4,
-        title: "Example title 4",
-        description: "Project 4 description",
+        title: "Hawaii Snake",
+        description: "A desktop application that allows you to play a 2D game " +
+            "in which you move around with a snake and have to collect points by eating," +
+            " but be careful not to eat yourself! The application was written in C++ using SFML library.",
         image: "/images/projects/4.jpg",
         tag: ["All", "Graphics"],
         gitUrl: "",

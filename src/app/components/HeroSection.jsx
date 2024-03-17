@@ -37,10 +37,12 @@ const HeroSection = () => {
                         </motion.div>
 
                     </h1>
-                    <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                        voluptatum.
-                    </p>
+                    <motion.p initial={{ opacity: 0, scale: 0.5 }}
+                              animate={{ opacity: 1, scale: 1 }}
+                              transition={{ duration: 1.5}}
+                              className="text-[#ADB7BE] mb-6 text-lg lg:text-2xl">
+                        <i> Talk is cheap. Show me the code </i> <br/> ~ Linus Torvalds
+                    </motion.p>
                     <div>
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-third-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
                             Hire Me

@@ -17,6 +17,7 @@
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^18",
     "react-modal": "^3.16.1",
+    "react-responsive": "^9.0.2",
     "react-scroll": "^1.9.0",
     "react-type-animation": "^3.2.0",
     "resend": "^3.2.0"

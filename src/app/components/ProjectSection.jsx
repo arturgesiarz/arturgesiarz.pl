@@ -10,9 +10,9 @@ const projectsData = [
         title: "Evolution Project",
         description: "The project concerned the simulation of animal evolution through reproduction, " +
             "struggle for food and death. The project was made in Java with the JavaFX library",
-        image: "/images/projects/1.jpg",
+        image: "/images/projects/evolution/icon.png",
         tag: ["All", "Graphics"],
-        gitUrl: "",
+        gitUrl: "https://github.com/arturgesiarz/Evolution_Project",
         previewUrl: "/projects/evolution"
     },
     {

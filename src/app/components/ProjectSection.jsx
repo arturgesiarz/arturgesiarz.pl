@@ -17,15 +17,14 @@ const projectsData = [
     },
     {
         id : 2,
-        title: "Forum Flow Project",
-        description: "The web application project was about making a Facebook-like website " +
-            "where you can create an account, insert a post, react to it, give a comment " +
-            "and create a discussion topic. The backend of the project is written in Java using Spring" +
-            " and MySQL database. The frontend is written in JavaScript using Angular and Bootstrap",
-        image: "/images/projects/2.jpg",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "/projects/forum_flow"
+        title: "Hawaii Snake",
+        description: "A desktop application that allows you to play a 2D game " +
+            "in which you move around with a snake and have to collect points by eating," +
+            " but be careful not to eat yourself! The application was written in C++ using SFML library.",
+        image: "/images/projects/hawaii_snake/icon.png",
+        tag: ["All", "Graphics"],
+        gitUrl: "https://github.com/arturgesiarz/Snake_Hawaii",
+        previewUrl: "/projects/hawaii_snake"
     },
     {
         id : 3,
@@ -42,15 +41,17 @@ const projectsData = [
     },
     {
         id : 4,
-        title: "Hawaii Snake",
-        description: "A desktop application that allows you to play a 2D game " +
-            "in which you move around with a snake and have to collect points by eating," +
-            " but be careful not to eat yourself! The application was written in C++ using SFML library.",
-        image: "/images/projects/4.jpg",
-        tag: ["All", "Graphics"],
+        title: "Forum Flow Project",
+        description: "The web application project was about making a Facebook-like website " +
+            "where you can create an account, insert a post, react to it, give a comment " +
+            "and create a discussion topic. The backend of the project is written in Java using Spring" +
+            " and MySQL database. The frontend is written in JavaScript using Angular and Bootstrap",
+        image: "/images/projects/2.jpg",
+        tag: ["All", "Web"],
         gitUrl: "",
-        previewUrl: "/projects/hawaii_snake"
+        previewUrl: "/projects/forum_flow"
     },
+
 ]
 
 const ProjectSection = () => {

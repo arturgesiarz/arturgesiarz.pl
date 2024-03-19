@@ -29,7 +29,7 @@ const ProjectDescription = () => {
                     className="rounded-lg"
                 />
             </div>
-            <h2 className="text-3xl font-bold text-white mb-4 border border-white inline-block p-2"> How the project works ?</h2>
+            <h2 className="text-3xl font-bold text-white mb-4 border border-white inline-block p-2">How does the project work?</h2>
             <div className="flex gap-8 items-center py-8 px-4 xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-16">
                 <video className="w-full h-auto items-center" controls>
                     <source src="/videos/evolution/extened_map.mp4" type="video/mp4" />

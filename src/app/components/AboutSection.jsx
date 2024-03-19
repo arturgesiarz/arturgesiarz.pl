@@ -60,25 +60,25 @@ const AboutSection = () => {
                 <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                     <p className="text-white text-base md:text-lg">
-                        Hi, my name is Artur Gęsiarz 🙋‍
+                        Hi, my name is Artur Gęsiarz
                         <br/>
                         <br/>
-                        I'm a second year student of computer science at AGH University of Krakow at WI💻 🤓
+                        I'm a second year student of computer science at AGH University of Krakow at WI
                         <br/>
                         <br/>
-                        I am a finalist of the UJ mathematics competition "Jagiellonian Mathematics Tournament" in 2021/22 ✒️
+                        I am a finalist of the UJ mathematics competition "Jagiellonian Mathematics Tournament" in 2021/22
                         <br/>
                         <br/>
-                        I am an enthusiast of chess, gym and good food 🏋️‍♀️
+                        I am an enthusiast of chess, gym and good food
                         <br/>
                         <br/>
-                        If you'd like to know a bit more about me then, to put it a little less formally, my life used to revolve around trying to understand how all this computer magic works, but now I'm ready to take my skills to the next level - and it's starting to happen! 🚀
+                        If you'd like to know a bit more about me then, to put it a little less formally, my life used to revolve around trying to understand how all this computer magic works, but now I'm ready to take my skills to the next level - and it's starting to happen!
                         <br/>
                         <br/>
-                        I'm looking for an internship or job as a programmer who will produce code better than my average chess game in Java, C++ or Kotlin domains. But don't worry, my programming projects are definitely better than my chess ranking! 🏆
+                        I'm looking for an internship or job as a programmer who will produce code better than my average chess game in Java, C++ or Kotlin domains. But don't worry, my programming projects are definitely better than my chess ranking!
                         <br/>
                         <br/>
-                        Apart from coding, I love spending time outdoors. When I'm not trying to find a bug in my code, you can find me on my bike, trying not to run into any trees or swimming, trying not to lose to a fish in the pool. 🚴‍♂️🏊‍♂️
+                        Apart from coding, I love spending time outdoors. When I'm not trying to find a bug in my code, you can find me on my bike, trying not to run into any trees or swimming, trying not to lose to a fish in the pool.
 
 
                     </p>

@@ -39,7 +39,7 @@ export default function Home() {
                     <div className="text-white text-base md:text-xl">
                         <p>
                             This animal evolution simulation was written as part of a project for a credit in the course
-                            'Object Oriented Programming' and was created in a team of two. The entire project was written in Java using the JavaFX library
+                            Object Oriented Programming and was created in a team of two. The entire project was written in Java using the JavaFX library
                         </p>
                         <br/>
                         <p>
@@ -125,7 +125,7 @@ export default function Home() {
                             The left and right edges of the map loop (if the pet goes beyond the left edge,
                             it appears on the right side - and if it goes beyond the right edge,
                             it appears on the left); the top and bottom edges of the map are poles
-                            - you can't go there (if the pet tries to go beyond these edges of the map,
+                            - you can not go there (if the pet tries to go beyond these edges of the map,
                             it remains on the field it was on, and its direction changes to the opposite)
                         </p>
                         <p>
@@ -134,7 +134,7 @@ export default function Home() {
                         </p>
                         <br/>
                         <p className="font-bold text-white mb-4" style={{textDecoration: 'underline'}}>
-                            What's the deal with the coloured squares ?
+                            What is the deal with the coloured squares ?
                         </p>
 
                         <p>

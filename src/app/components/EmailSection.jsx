@@ -42,7 +42,7 @@ const EmailSection = () => {
     >
       <div className="flex flex-col items-center justify-center">
         <h5 className="font-bold mb-32 text-transparent text-5xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 ">
-          <p>Let's Connect</p>
+          <p>Lets Connect</p>
         </h5>
       </div>
       <div>

@@ -23,7 +23,7 @@ const projectsData = [
     title: "To-Do",
     description:
       "The web application allows you to add things to do, edit them, delete them, " +
-      "and assign a date to a specific task. Backend was written in C# using ASP.NET. The whole apllication is in Docker containers." +
+      "and assign a date to a specific task. Backend was written in C# using ASP.NET. " +
       "Frontend was written in React",
     image: "/images/projects/2.jpg",
     tag: ["All", "Web"],

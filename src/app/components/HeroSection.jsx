@@ -4,7 +4,6 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import NavLink from "./NavLink";
 
 const HiSection = () => {
   return (
@@ -18,11 +17,11 @@ const HiSection = () => {
         >
           <h1 className="text-white max-w-2xl mb-4 lg:text-6xl md:text-5xl text-3xl font-extrabold">
             <span className="text-transparent lg:text-6xl  md:text-5xl text-3xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I am{" "}
+              Hi, I am{" "}
             </span>
             <br />
             <span className="text-transparent lg:text-6xl md:text-5xl text-3xl bg-clip-text bg-gradient-to-r lg:leading-normal  from-primary-400 to-secondary-600">
-              Artur
+              Artur Gęsiarz
             </span>
             <br />
             <motion.div
@@ -32,12 +31,20 @@ const HiSection = () => {
             >
               <TypeAnimation
                 sequence={[
-                  "Java Lover",
-                  2000,
-                  "C++ Enjoyer",
-                  2000,
-                  "Kotlin App Maker",
-                  2000,
+                  "React Enthusiast",
+                  5000,
+                  "Angular Advocate",
+                  5000,
+                  "C# Developer",
+                  5000,
+                  "Python Programmer",
+                  5000,
+                  "React Native Lover",
+                  5000,
+                  "Java Specialist",
+                  5000,
+                  "Full-Stack Programmer",
+                  5000,
                 ]}
                 wrapper="span"
                 speed={50}

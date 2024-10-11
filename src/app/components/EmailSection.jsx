@@ -4,16 +4,9 @@ import GithubIcon from "/public/images/github-icon.svg";
 import LinkedinIcon from "/public/images/linkedin_icon.svg";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-  const cardVariants = {
-    initial: { y: 200 },
-    animate: { y: 0 },
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,15 +44,11 @@ const EmailSection = () => {
       id="#contact"
       className="grid md:grid-cols-2 my-12 mb-0 pb-0 md:my-12 py-24 gap-4 relative"
     >
-      <div>
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          If you have questions, suggestions or just want to chat, that is
-          great! There is a form on the right where you can write me a message
-          :)
-        </p>
-        <div className="socials flex flex-row gap-2">
+      <div className="flex flex-col items-center justify-center">
+        <h5 className="font-bold mb-32 text-transparent text-5xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 ">
+          Let's Connect
+        </h5>
+        {/* <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/arturgesiarz">
             <Image src={GithubIcon} alt="Github Icon" height={70} width={70} />
           </Link>
@@ -71,7 +60,7 @@ const EmailSection = () => {
               width={70}
             />
           </Link>
-        </div>
+        </div> */}
       </div>
       <div>
         <form className="grid grid-cols-2 gap-10" onSubmit={handleSubmit}>
@@ -160,7 +149,7 @@ const EmailSection = () => {
           </div>
           <button
             type="submit"
-            className="bg-primary-500 hover:bg-primary-600 text-white
+            className="bg-primary-700 hover:bg-primary-800 text-white
                     font-medium py-2.5 px-5 rounded-lg w-full"
           >
             Send Message

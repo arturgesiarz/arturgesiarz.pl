@@ -1,46 +1,7 @@
 "use client";
-import React, { useTransition, useState } from "react";
+import React from "react";
 import Image from "next/image";
-import TabButton from "@/app/components/TabButton";
 import { motion } from "framer-motion";
-
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>C++</li>
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>Kotlin</li>
-        <li>Android Studio</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>
-          AGH University of Krakow, WI - <br />
-          Computer Science (2022 - now) 📖
-        </li>
-      </ul>
-    ),
-  },
-  {
-    title: "Languages",
-    id: "languages",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Polish (native) 🇵🇱</li>
-        <li>English (B2) 🇬🇧</li>
-      </ul>
-    ),
-  },
-];
 
 const AboutSection = () => {
   return (
@@ -48,52 +9,43 @@ const AboutSection = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1.5 }}
-      className="text-white"
+      className="text-white w-full "
       id="#about"
     >
-      <div className="grid gap-8 items-center py-8 px-4 xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-16">
-        <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-5">
+        About me
+      </h2>
+      <div className="grid gap-8 items-center px-4 xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-16">
+        <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col h-full bg-stone-900 p-10 rounded-lg">
           <p className="text-white text-base md:text-lg">
             Hi, my name is Artur Gęsiarz 🙋‍
             <br />
+            <br />I am <strong>a third year</strong> student of{" "}
+            <strong>computer science</strong> at <strong>AGH</strong> University
+            of Krakow at WI. 💻 🤓
             <br />
-            I am a second year student of computer science at AGH University of
-            Krakow at WI. 💻 🤓
-            <br />
-            <br />
-            I am a finalist of the UJ mathematics competition Jagiellonian
-            Mathematics Tournament in 2021/22. ✒️
-            <br />
-            <br />
-            I am an enthusiast of chess, gym and good food. 🏋️‍♀️
+            <br />I have gained valuable commercial experience in various
+            technologies, including{" "}
+            <strong>Angular, ASP.NET, Docker and MSSQL. 🐳</strong>
             <br />
             <br />
-            If you would like to know a bit more about me then, to put it a
-            little less formally, my life used to revolve around trying to
-            understand how all this computer magic works, but now I am ready to
-            take my skills to the next level - and it is starting to happen! 🚀
+            My expertise lies in building{" "}
+            <strong>full-stack web applications</strong>, which has provided me
+            with a strong understanding of both <strong>frontend</strong> and{" "}
+            <strong>backend</strong> development. 🧑‍💻
             <br />
             <br />
-            I am looking for an internship or job as a programmer who will
-            produce code better than my average chess game in Java, C++ or
-            Kotlin domains. But do not worry, my programming projects are
-            definitely better than my chess ranking! 🏆
-            <br />
-            <br />
-            Apart from coding, I love spending time outdoors. When I am not
-            trying to find a bug in my code, you can find me on my bike, trying
-            not to run into any trees or swimming, trying not to lose to a fish
-            in the pool. 🚴‍♂️🏊‍♂️
+            My technical skills, coupled with a commitment to delivering
+            <strong> high-quality solutions</strong> 🖊️
           </p>
         </div>
         <div className="md:order-1">
           <Image
-            src="/images/my_photo_about_me.jpg"
+            src="/images/my_photo_2.png"
             alt="about me photo"
             width={500}
-            height={800}
-            className="rounded-lg"
+            height={500}
+            className="rounded-full"
           />
         </div>
       </div>

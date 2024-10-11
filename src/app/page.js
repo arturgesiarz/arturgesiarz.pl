@@ -1,4 +1,4 @@
-import HiSection from "@/app/components/HiSection";
+import HiSection from "@/app/components/HeroSection";
 import Navbar from "@/app/components/Navbar";
 import AboutSection from "@/app/components/AboutSection";
 import ProjectSection from "@/app/components/ProjectSection";
@@ -10,12 +10,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
       <div className="container mt-24  mx-auto px-12 py-4">
-          <HiSection />
-          <AboutSection />
-          <ProjectSection />
-          <EmailSection />
+        <HiSection />
+        <AboutSection />
+        <ProjectSection />
+        <EmailSection />
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 }

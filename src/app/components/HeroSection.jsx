@@ -8,7 +8,7 @@ import Link from "next/link";
 const HiSection = () => {
   return (
     <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12" id="#home">
+      <div className="grid grid-cols-1 sm:grid-cols-12" id="home">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -59,7 +59,7 @@ const HiSection = () => {
             <i> Talk is cheap. Show me the code </i> <br /> ~ Linus Torvalds
           </motion.p>
           <div>
-            <Link href="##contact">
+            <Link href="#contact">
               <button
                 className="px-8 py-5 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br
                                 from-third-500 via-primary-500 to-secondary-500

@@ -13,7 +13,7 @@ const AboutSection = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1.5 }}
       className="text-white w-full "
-      id="#about"
+      id="about"
     >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-5">
         About me

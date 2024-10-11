@@ -37,7 +37,7 @@ const EmailSection = () => {
 
   return (
     <div
-      id="#contact"
+      id="contact"
       className="grid md:grid-cols-2 my-12 mb-0 pb-0 md:my-12 py-24 gap-4 relative"
     >
       <div className="flex flex-col items-center justify-center">

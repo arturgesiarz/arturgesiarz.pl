@@ -1,9 +1,5 @@
 "use client";
 import React, { useRef, useState } from "react";
-import GithubIcon from "/public/images/github-icon.svg";
-import LinkedinIcon from "/public/images/linkedin_icon.svg";
-import Link from "next/link";
-import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -48,19 +44,6 @@ const EmailSection = () => {
         <h5 className="font-bold mb-32 text-transparent text-5xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 ">
           Let's Connect
         </h5>
-        {/* <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/arturgesiarz">
-            <Image src={GithubIcon} alt="Github Icon" height={70} width={70} />
-          </Link>
-          <Link href="https://linkedin.com/in/artur-gesiarz">
-            <Image
-              src={LinkedinIcon}
-              alt="Linkedin Icon"
-              height={70}
-              width={70}
-            />
-          </Link>
-        </div> */}
       </div>
       <div>
         <form className="grid grid-cols-2 gap-10" onSubmit={handleSubmit}>
@@ -149,7 +132,7 @@ const EmailSection = () => {
           </div>
           <button
             type="submit"
-            className="bg-primary-700 hover:bg-primary-800 text-white
+            className="bg-gradient-to-r from-primary-400 to-secondary-600 text-white
                     font-medium py-2.5 px-5 rounded-lg w-full"
           >
             Send Message

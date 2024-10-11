@@ -2,6 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+import GithubIcon from "/public/images/github-icon.svg";
+import LinkedinIcon from "/public/images/linkedin_icon.svg";
 
 const AboutSection = () => {
   return (
@@ -39,7 +42,7 @@ const AboutSection = () => {
             <strong> high-quality solutions</strong> 🖊️
           </p>
         </div>
-        <div className="md:order-1">
+        <div className="flex flex-col items-center gap-5 md:order-1">
           <Image
             src="/images/my_photo_2.png"
             alt="about me photo"
@@ -47,6 +50,25 @@ const AboutSection = () => {
             height={500}
             className="rounded-full"
           />
+
+          <div className="socials flex justify-center gap-2">
+            <Link href="https://github.com/arturgesiarz">
+              <Image
+                src={GithubIcon}
+                alt="Github Icon"
+                height={70}
+                width={70}
+              />
+            </Link>
+            <Link href="https://linkedin.com/in/artur-gesiarz">
+              <Image
+                src={LinkedinIcon}
+                alt="Linkedin Icon"
+                height={70}
+                width={70}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </motion.section>
